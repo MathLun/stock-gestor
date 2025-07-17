@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | StockGestor</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
 </head>
 <body>
     <header class="container flex-between w-full pd-td-10">
@@ -18,9 +18,13 @@
     <main class="container flex-center w-full">
         <div class="login-container container flex-column">
             <div class="login-title-container container">
-                Login
+                Nova Conta
             </div>
-            <form id="loginForm" class="form container flex-center flex-column form">
+            <form id="submit" class="form container flex-center flex-column form">
+                <div class="form-group container flex-column">
+                    <label for="username">Nome</label>
+                    <input type="text" id="username" name="username" />
+                </div>
                 <div class="form-group container flex-column">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" />
@@ -29,18 +33,25 @@
                     <label for="password">Password</label>
                     <input type="password" id="password" name="password">
                 </div>
+                <div class="form-group container flex-column">
+                    <label for="role">Role</label>
+                    <input type="text" id="role" name="role" />
+                </div>
                 <div class="form-group flex-column flex-end">
                     <a id="forgotPasswordLink" class="f-arial">Esqueci a Senha</a>
                 </div>
                 <div class="form-group">
-                    <button class="btn-medium">Entrar</button>
+                    <button class="btn-medium">Cadastrar</button>
                 </div>
             </form>
             <div class="container flex-center">
-                <a id="registerLink">Criar uma conta</a>
+                <a href="" id="loginLink">Já tenha conta</a>
             </div>
         </div>
     </main>
+    <footer class="container flex-center w-full pd-td-10 b-fixed">
+        <p class="copy f-10">&copy; 2025 StockGestor</p>
+    </footer>
     <script type="module" src="index.js"></script>
 </body>
 </html>

@@ -16,3 +16,7 @@
 .flex-column {
     flex-direction: column;
 }
+
+.flex-end {
+    justify-content: end;
+}

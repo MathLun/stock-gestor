@@ -1,11 +1,7 @@
+import { openLink } from "./features/open_link.mjs"
 
-const openLink = (route) => {
-    const { protocol, hostname, port } = window.location
-    const url = `${protocol}//${hostname}${(port != undefined && ':' + port) || undefined}${route}/index.html`
-    const url_handler = url.replace("undefined", "")
-    return url_handler
-}
+const dashboardLink = openLink('/frontend/web/dashboard')
+document.getElementById('dashboardLink').href = dashboardLink
 
-const url = openLink("/frontend/web/login")
-
-document.getElementById('loginLink').href = url
+const loginLink = openLink("/frontend/web/login")
+document.getElementById('loginLink').href = loginLink
