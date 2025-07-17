@@ -1,3 +1,4 @@
 
 const { protocol, hostname, port } = window.location
-console.log(`${protocol}//${hostname}${(port != undefined && ':' + port) ?? undefined}`)
+const url = `${protocol}//${hostname}${(port == undefined && ':' + port) ?? undefined}`.replace(":", "")
+console.log(url)
