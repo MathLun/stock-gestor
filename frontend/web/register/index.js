@@ -1,10 +1,10 @@
 import { openLink } from "../features/open_link.mjs"
 import { createNewUser } from "../services/create_new_user.mjs"
 
-const homeLink = openLink('/frontend/web')
+const homeLink = openLink('/')
 document.getElementById('homeLink').href = homeLink
 
-const loginLink = openLink('/frontend/web/login')
+const loginLink = openLink('/login')
 document.getElementById('loginLink'). href = loginLink
 
 document.getElementById('submit').addEventListener('submit', async (e) => {
