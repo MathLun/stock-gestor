@@ -1,4 +1,4 @@
-import userRepo from '../repos/users.mjs'
+import userRepo from '../repos/user_repo.mjs'
 
 export const createNewUser = async ({ _id, username, email, password, role }) => {
     try {

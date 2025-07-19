@@ -1,21 +1,13 @@
-let storageName = ""
-const data = []
-
-const saveStorageName = async (name) => {
-    storageName = name
-}
-
 const saveData = async (input) => {
-    data.push(input)
-    localStorage.setItem(storageName, JSON.stringify(data))
+    localStorage.setItem(input.storageName, input.data)
 }
-const getData = async () => {
-    const data = JSON.parse(localStorage.getItem(storageName))
+
+const getData = async (input) => {
+    const data = localStorage.getItem(input.storageName)
     return data
 }
 
 export default {
-    saveStorageName,
     saveData,
     getData
 }

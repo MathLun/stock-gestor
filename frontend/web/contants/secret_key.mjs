@@ -1,0 +1,1 @@
+export const secretKey = new TextEncoder().encode('stock-gestor')
