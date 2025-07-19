@@ -7,7 +7,12 @@ const getData = async (input) => {
     return data
 }
 
+const removeData = async (input) => {
+    localStorage.removeItem(input.storageName)
+}
+
 export default {
     saveData,
-    getData
+    getData,
+    removeData
 }

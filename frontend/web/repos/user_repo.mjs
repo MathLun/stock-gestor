@@ -1,11 +1,12 @@
 import storage from "../libs/storage.mjs"
 
+const userRepo = []
 const data = await storage.getData({ storageName: "users" })
 const users = JSON.parse(data)
 
 const save = async (user) => {
-    const data = JSON.stringify(user)
-    await storage.saveData({ storageName: "users", data: data })
+    userRepo.push(user)
+    await storage.saveData({ storageName: "users", data: JSON.stringify(userRepo) })
 }
 
 const getById = async (id) => {
