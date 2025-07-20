@@ -7,11 +7,55 @@
     padding-bottom: 10px;
 }
 
+.pd-td-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pd-lr-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
 .pd-lr-10 {
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.pd-lr-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pd-lr-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pd-lr-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .mg-l-20 {
     margin-left: 20px;
+}
+
+.mg-l-40 {
+    margin-left: 40px;
+}
+
+.mg-l-60 {
+    margin-left: 60px;
+}
+
+.mg-l-70 {
+    margin-left: 70px;
+}
+
+.mg-r-10 {
+    margin-right: 10px;
+}
+
+.mg-r-50 {
+    margin-right: 50px;
 }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | StockGestor</title>
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+    <header class="container flex-between f-wull h-10 br-b-1">
+        <div class="container w-400">
+            <a id="brandLink">
+                <h2 class="red">
+                    <span class="gray">Stock</span>Gestor
+                </h2>
+            </a>
+        </div>
+        <div class="container w-800 flex-end">
+            <div class="search-bar container flex-center pd-lr-10">
+                <input type="search" name="search" id="search" class="pd-td-10 pd-lr-10 br-full-1 br-rd-8" placeholder="Produtos, clientes..."/>
+            </div>
+            <div class="my-profile container flex-center pd-lr-30">
+                <h4>
+                    <a id="my-profile" class="red">Meu Perfil</a>
+                </h4>
+            </div>
+            <div id="profile" class="profile bg-lightgray container flex-center">
+                <p id="profile-letter"></p>
+            </div>
+        </div>
+    </header>
+    <main class="container pd-lr-0 flex-between h-90">
+        <div class="sidebar container pd-lr-0 flex-column flex-between w-250 h-full br-r-1">
+            <header class="container w-full">
+
+            </header>
+            <div class="container w-full hp-70 flex-initial flex-column pd-lr-40">
+                <div class="link-group pd-td-20">
+                    <a id="dashboard" class="">Dashboard</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="products">Produtos</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="history">Historico</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="reports">Relatorios</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="clients">Clientes</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="suport">Suporte</a>
+                </div>
+            </div>
+            <footer class="container w-full flex-center pd-td-10">
+                <p class="copy f-10">&copy; 2025 StockGestor</p>
+            </footer>
+        </div>
+        <div class="container pd-lr-0 flex-column flex-between w-1k15 h-90">
+            <header class="container w-full flex-between pd-td-10">
+                <div class="storename container pd-td-10">
+                    <h3 class="f-medium">Nome da Empresa</h3>
+                </div>
+            </header>
+            <div class="container">
+
+            </div>
+            <footer class="container">
+
+            </footer>
+        </div>
+    </main>
+    <script type="module" src="../index.js"></script>
+</body>
+</html>

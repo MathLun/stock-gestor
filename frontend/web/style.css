@@ -4,6 +4,8 @@
 @import "./styles/sizes.css";
 @import "./styles/form.css";
 @import "./styles/positions.css";
+@import "./styles/colors.css";
+@import "./styles/borders.css";
 
 * {
     margin: 0;
@@ -19,4 +21,18 @@ html, body {
 
 a {
     text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+.profile {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.link-group > a:hover {
+    color: red;
 }

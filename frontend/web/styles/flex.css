@@ -3,6 +3,30 @@
     padding: 0 10px;
 }
 
+.flex-initial {
+    justify-content: start;
+    align-items: start;
+}
+
+.flex-start {
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-start-w {
+    justify-content: center;
+    align-items: start;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-around {
+    justify-content: space-around;
+    align-items: center;
+}
+
 .flex-between {
     justify-content: space-between;
     align-items: center;

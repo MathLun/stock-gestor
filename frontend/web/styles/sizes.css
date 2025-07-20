@@ -1,8 +1,87 @@
+.w-half {
+    width: 50%;
+}
+
+.wp-30 {
+    width: 30%;
+}
+
+.wp-40 {
+    width: 40%;
+}
+
+.wp-60 {
+    width: 60%;
+}
+
+.wp-70 {
+    width: 70%;
+}
 
 .w-full {
     width: 100%; 
 }
 
+.w-250 {
+    width: 250px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.w-800 {
+    width: 800px;
+}
+
+.w-1k15 {
+    width: 1150px;
+}
+
+.h-10 {
+    height: 10vh;
+}
+
+.hp-25 {
+    height: 25vh;
+}
+
+.hp-30 {
+    height: 30%;
+}
+
+.hp-70 {
+    height: 70%;
+}
+
+.h-30 {
+    height: 30vh;
+}
+
+.h-35 {
+    height: 35vh;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
 .h-80 {
     height: 80vh;
+}
+
+.h-90 {
+    height: 90vh;
+}
+
+.h-half {
+    height: 50%;
+}
+
+.h-full {
+    height: 100%;
 }

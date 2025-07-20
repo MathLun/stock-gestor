@@ -1,0 +1,28 @@
+.br-t-1 {
+    border-top: 0.1px solid #d3d3d34D;
+}
+
+.br-b-1 {
+    border-bottom: 0.1px solid #d3d3d34D; /* @color lightgray 0.3 */
+}
+
+.br-r-1 {
+    border-right: 0.1px solid #d3d3d34D;
+}
+
+.br-full-1 {
+    border: 0.1px solid #d3d3d34D;
+}
+
+.br-b-3 {
+    border-bottom: 0.3px solid lightgray;
+}
+
+.br-rd-8 {
+    border-radius: 8px;
+}
+
+.br-rd-14 {
+    border-radius: 14px;
+}
+

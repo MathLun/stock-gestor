@@ -7,6 +7,140 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+    <header class="container flex-between f-wull h-10 br-b-1">
+        <div class="container w-400">
+            <a id="brandLink">
+                <h2 class="red">
+                    <span class="gray">Stock</span>Gestor
+                </h2>
+            </a>
+        </div>
+        <div class="container w-800 flex-end">
+            <div class="search-bar container flex-center pd-lr-10">
+                <input type="search" name="search" id="search" class="pd-td-10 pd-lr-10 br-full-1 br-rd-8" placeholder="Produtos, clientes..."/>
+            </div>
+            <div class="my-profile container flex-center pd-lr-30">
+                <h4>
+                    <a id="my-profile" class="red">Meu Perfil</a>
+                </h4>
+            </div>
+            <div id="profile" class="profile bg-lightgray container flex-center">
+                <p id="profile-letter"></p>
+            </div>
+        </div>
+    </header>
+    <main class="container pd-lr-0 flex-between h-90">
+        <div class="sidebar container pd-lr-0 flex-column flex-between w-250 h-full br-r-1">
+            <header class="container w-full">
+
+            </header>
+            <div class="container w-full hp-70 flex-initial flex-column pd-lr-40">
+                <div class="link-group pd-td-20">
+                    <a id="dashboard" class="f-medium red">Dashboard</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="products" class="gray">Produtos</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="history" class="gray">Historico</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="reports" class="gray">Relatorios</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="clients" class="gray">Clientes</a>
+                </div>
+                <div class="link-group pd-td-20">
+                    <a id="suport" class="gray">Suporte</a>
+                </div>
+            </div>
+            <footer class="container w-full flex-center pd-td-10">
+                <p class="copy f-10">&copy; 2025 StockGestor</p>
+            </footer>
+        </div>
+        <div class="container pd-lr-0 flex-column flex-between w-1k15 h-90">
+            <header class="container w-full flex-between pd-td-10 h-10">
+                <div class="storename container pd-td-10 mg-l-70">
+                    <h3 class="f-medium gray">Nome da Empresa</h3>
+                </div>
+                <div class="container flex-between w-250 pd-td-10 mg-r-50">
+                    <h5 class="red">24h</h5>
+                    <h5 class="gray">sem</h5>
+                    <h5 class="gray">mes</h5>
+                    <h5 class="gray">ano</h5>
+                </div>
+            </header>
+            <div class="container pd-lr-0 w-full flex-around flex-wrap h-50">
+                <div class="card w-400 h-25">
+                    <div class="card-header container w-full hp-30 pd-td-20 pd-lr-30">
+                        <h4 class="red">Total de Produtos</h4>
+                    </div>
+                    <div class="card-body container w-full flex-between hp-70">
+                        <div class="card-body-left container wp-30 flex-end">
+                            <h2 class="red f-50">
+                                20
+                            </h2>
+                        </div>
+                        <div class="card-body-right container wp-70 h-full flex-start-w flex-column">
+                            <h2 class="red f-18">Produtos</h2>
+                            <p class="f-14 lightgray">no estoque</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-400 h-25">
+                    <div class="card-header container w-full hp-30 pd-td-20 pd-lr-30">
+                        <h4 class="red">Vendas Recentes</h4>
+                    </div>
+                    <div class="card-body container w-full flex-between hp-70">
+                        <div class="card-body-left container wp-30 flex-end">
+                            <h2 class="red f-50">
+                                50
+                            </h2>
+                        </div>
+                        <div class="card-body-right container wp-70 h-full flex-start-w flex-column">
+                            <h2 class="red f-18">Vendas</h2>
+                            <p class="f-14 lightgray">Ultimas 24 horas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-400 h-25">
+                    <div class="card-header container w-full hp-30 pd-td-20 pd-lr-30">
+                        <h4 class="red">Relatorios de Lucro</h4>
+                    </div>
+                    <div class="card-body container w-full flex-between hp-70">
+                        <div class="card-body-left container wp-30 flex-end">
+                            <h2 class="red f-50">
+                                20
+                            </h2>
+                        </div>
+                        <div class="card-body-right container wp-70 h-full flex-start-w flex-column">
+                            <h2 class="red f-18">lucros</h2>
+                            <p class="f-14 lightgray">obtidos nos últimos dias</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-400 h-25">
+                    <div class="card-header container w-full hp-30 pd-td-20 pd-lr-30">
+                        <h4 class="red">Alerta de Reabastecimento</h4>
+                    </div>
+                    <div class="card-body container w-full flex-between hp-70">
+                        <div class="card-body-left container wp-30 flex-end">
+                            <h2 class="red f-50">
+                                10
+                            </h2>
+                        </div>
+                        <div class="card-body-right container wp-70 h-full flex-start-w flex-column">
+                            <h2 class="red f-18">Produtos</h2>
+                            <p class="f-14 lightgray">abaixo do estoque</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="container w-full flex-between h-30">
+
+            </footer>
+        </div>
+    </main>
     <script type="module" src="./index.js"></script>
 </body>
 </html>

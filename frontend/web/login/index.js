@@ -5,6 +5,7 @@ import { redirectPage } from "../features/redirect_page.mjs";
 import { refreshPage } from "../features/refresh_page.mjs";
 import { saveToken } from "../features/save_token.mjs";
 import { createToken } from "../libs/create_token.mjs";
+import storage from "../libs/storage.mjs";
 import { getUserByEmail } from "../services/get_user_by_email.mjs";
 
 window.onload = async () => {
@@ -13,6 +14,7 @@ window.onload = async () => {
         if (token) {
             redirectPage('/dashboard')    
         } else {
+            storage.removeData('token')
             loginForm()
         }   
     } catch(e) {

@@ -8,6 +8,6 @@ export const verifyToken = async (input) => {
             return token    
         }
     } catch (e) {
-        console.error("Token invalido: " + e)
+        return false
     }
 }
